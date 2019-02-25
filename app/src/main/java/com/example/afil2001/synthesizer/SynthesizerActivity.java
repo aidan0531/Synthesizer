@@ -11,7 +11,7 @@ public class SynthesizerActivity extends AppCompatActivity {
 
     private static final String TAG =
             SynthesizerActivity.class.getName();
-    private Button button1;
+    private Button mEButton;
     private Button button2;
 
     private MediaPlayer mpE;
@@ -21,7 +21,7 @@ public class SynthesizerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_synthesizer);
 
-        button1 = (Button) findViewById(R.id.button1);
+        mEButton = (Button) findViewById(R.id.eButton);
         button2 = (Button) findViewById(R.id.button2);
         mpE = MediaPlayer.create(this, R.raw.scalee);
         mpF = MediaPlayer.create(this, R.raw.scalef);

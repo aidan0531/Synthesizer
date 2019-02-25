@@ -23,11 +23,11 @@
             app:layout_constraintVertical_bias="0.032" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/eButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onButton1Click"
-            android:text="@string/button1"
+            android:text="@string/eButton"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="83dp" />
 
